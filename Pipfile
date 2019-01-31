@@ -7,7 +7,15 @@ name = "pypi"
 
 [packages]
 
+flask = "*"
+flask-cors = "*"
+flask-api = "*"
+pytest = "*"
+pytest-cov = "*"
+pytest-flask = "*"
+requests = "*"
 
 
 [dev-packages]
 
+pylint = "*"

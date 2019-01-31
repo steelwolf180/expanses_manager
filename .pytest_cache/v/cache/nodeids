@@ -1,0 +1,6 @@
+[
+  "test_endpoints.py::test_index_page",
+  "test_endpoints.py::test_get_balance_in_transacations",
+  "test_endpoints.py::test_get_number_of_transacations",
+  "test_endpoints.py::test_individual_transaction_fields"
+]
