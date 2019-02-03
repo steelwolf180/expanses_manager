@@ -3,7 +3,7 @@ import requests
 
 url = 'http://127.0.0.1:5000'
 
-class Test_Expanses_Endpoint():
+class TestTransactions():
     def test_index_page(self):
         r = requests.get(url+'/')
         assert r.status_code == 200
@@ -35,3 +35,12 @@ class Test_Expanses_Endpoint():
         assert 300 == fields[0]['inital_balance'] 
         assert "2019-01-12 09:00:00" == fields[0]['time']
         assert fields[0]['type'] != 'income'
+
+class TestCreateTransaction():
+    pass
+
+class TestUpdateTransaction():
+    pass
+
+class TestDeleteTransaction():
+    pass

@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify # Exports the flask library
+from flask import Flask, request, jsonify # Imports the flask library modules
 app = Flask(__name__) # Single module that grabs all modules executing from this file
 
 @app.route('/', methods=['GET'])
